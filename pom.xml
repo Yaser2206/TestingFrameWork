@@ -48,8 +48,6 @@
       <version>7.7.1</version>
       <scope>test</scope>
     </dependency>
-<<<<<<< HEAD
-
     <!-- Rest Assured for API testing -->
     <dependency>
       <groupId>io.rest-assured</groupId>
@@ -57,8 +55,6 @@
       <version>5.3.0</version>
       <scope>test</scope>
     </dependency>
-=======
->>>>>>> eea0772ec44d386edd42c084aa81b582d385c26e
   </dependencies>
 
   <build>
