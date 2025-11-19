@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="2" total="3" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-11-07T01:16:11 IST" name="AppSuite" finished-at="2025-11-07T01:16:11 IST" duration-ms="127">
+  <suite started-at="2025-11-20T00:55:45 IST" name="Default suite" finished-at="2025-11-20T00:55:51 IST" duration-ms="6192">
     <groups>
     </groups>
-    <test started-at="2025-11-07T01:16:11 IST" name="AppTest" finished-at="2025-11-07T01:16:11 IST" duration-ms="127">
-      <class name="com.test.automation.web_api_framework.AppTest">
-        <test-method signature="shouldAnswerWithTrue()[pri:0, instance:com.test.automation.web_api_framework.AppTest@57a3af25]" started-at="2025-11-07T01:16:11 IST" name="shouldAnswerWithTrue" finished-at="2025-11-07T01:16:11 IST" duration-ms="31" status="PASS">
+    <test started-at="2025-11-20T00:55:45 IST" name="Default test" finished-at="2025-11-20T00:55:51 IST" duration-ms="6192">
+      <class name="com.test.automation.web_api_framework.JiraAPITest">
+        <test-method signature="getBug()[pri:0, instance:com.test.automation.web_api_framework.JiraAPITest@3bf7ca37]" started-at="2025-11-20T00:55:45 IST" name="getBug" finished-at="2025-11-20T00:55:51 IST" duration-ms="6133" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- shouldAnswerWithTrue -->
-      </class> <!-- com.test.automation.web_api_framework.AppTest -->
-    </test> <!-- AppTest -->
-  </suite> <!-- AppSuite -->
+        </test-method> <!-- getBug -->
+      </class> <!-- com.test.automation.web_api_framework.JiraAPITest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

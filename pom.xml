@@ -55,6 +55,17 @@
       <version>5.3.0</version>
       <scope>test</scope>
     </dependency>
+    <dependency>
+  <groupId>org.seleniumhq.selenium</groupId>
+  <artifactId>selenium-java</artifactId>
+  <version>4.11.0</version> <!-- pick current stable -->
+</dependency>
+
+<dependency>
+  <groupId>io.github.bonigarcia</groupId>
+  <artifactId>webdrivermanager</artifactId>
+  <version>5.3.2</version> <!-- pick current stable -->
+</dependency>
   </dependencies>
 
   <build>
