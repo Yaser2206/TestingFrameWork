@@ -66,5 +66,4 @@ public class JiraAPITest {
 		System.out.println("Get Bug Response is :"+response);
 	}
 	
-	
 }
