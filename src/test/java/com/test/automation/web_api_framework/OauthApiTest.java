@@ -37,5 +37,49 @@ public class OauthApiTest {
 		JsonPath js=new JsonPath(response);
 		token=js.getString("access_token");
 		System.out.println("Token: "+token);
+		 String r2=
+		given().queryParam("access_token", token).when().log().all().get("https://rahulshettyacademy.com/oauthapi/getCourseDetails")
+		.then().log().all().extract().response().asString();
+		 System.out.println("Response from API is :"+r2);
 	}
+//	The response of Json is like below:
+//	{
+//	  "instructor": "RahulShetty",
+//	  "url": "rahulshettycademy.com",
+//	  "services": "projectSupport",
+//	  "expertise": "Automation",
+//	  "courses": {
+//	    "webAutomation": [
+//	      {
+//	        "courseTitle": "Selenium Webdriver Java",
+//	        "price": "50"
+//	      },
+//	      {
+//	        "courseTitle": "Cypress",
+//	        "price": "40"
+//	      },
+//	      {
+//	        "courseTitle": "Protractor",
+//	        "price": "40"
+//	      }
+//	    ],
+//	    "api": [
+//	      {
+//	        "courseTitle": "Rest Assured Automation using Java",
+//	        "price": "50"
+//	      },
+//	      {
+//	        "courseTitle": "SoapUI Webservices testing",
+//	        "price": "40"
+//	      }
+//	    ],
+//	    "mobile": [
+//	      {
+//	        "courseTitle": "Appium-Mobile Automation using Java",
+//	        "price": "50"
+//	      }
+//	    ]
+//	  },
+//	  "linkedIn": "https://www.linkedin.com/in/rahul-shetty-trainer/"
+//	}
 }
